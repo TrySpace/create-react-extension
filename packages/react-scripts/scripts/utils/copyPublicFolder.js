@@ -7,7 +7,9 @@ function copyPublicFolder(buildFolder) {
   fs.copySync(paths.appPublic, buildFolder, {
     dereference: true,
     filter: file =>
-      file !== paths.appPopupHtml && file !== paths.appOptionsHtml,
+      file !== paths.appPopupHtml &&
+      file !== paths.appOptionsHtml &&
+      file !== paths.appNewTabHtml,
   });
 }
 
