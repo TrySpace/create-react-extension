@@ -1,4 +1,5 @@
 {
+  "name": "react-browser-extension-scripts-newtab",
   "private": true,
   "workspaces": [
     "packages/*"
