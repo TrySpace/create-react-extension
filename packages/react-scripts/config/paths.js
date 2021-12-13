@@ -52,6 +52,7 @@ module.exports = {
   appPublic: resolveApp('public'),
   manifestJson: resolveApp('public/manifest.json'),
   appOptionsHtml: resolveApp('public/options.html'),
+  appNewTabHtml: resolveApp('public/newtab.html'),
   appPopupHtml: resolveApp('public/popup.html'),
   appIndexJs: resolveModule(resolveApp, 'src/index'),
   appBackgroundJs: resolveModule(resolveApp, 'src/background/index'),
@@ -78,6 +79,7 @@ module.exports = {
   appPublic: resolveApp('public'),
   manifestJson: resolveApp('public/manifest.json'),
   appOptionsHtml: resolveApp('public/options.html'),
+  appNewTabHtml: resolveApp('public/newtab.html'),
   appPopupHtml: resolveApp('public/popup.html'),
   appIndexJs: resolveModule(resolveApp, 'src/index'),
   appBackgroundJs: resolveModule(resolveApp, 'src/background/index'),
@@ -118,6 +120,7 @@ if (
     manifestJson: resolveApp(`${templatePath}/public/manifest.json`),
     appPopupHtml: resolveOwn(`${templatePath}/public/popup.html`),
     appOptionsHtml: resolveOwn(`${templatePath}/public/options.html`),
+    appNewTabHtml: resolveOwn(`${templatePath}/public/newtab.html`),
     appIndexJs: resolveModule(resolveOwn, `${templatePath}/src/index`),
     appBackgroundJs: resolveModule(
       resolveOwn,

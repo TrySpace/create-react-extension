@@ -61,6 +61,7 @@ if (
     paths.appBackgroundJs,
     paths.appContentScriptJs,
     paths.appOptionsHtml,
+    paths.appNewTabHtml,
     paths.appOptionsJs,
   ])
 ) {

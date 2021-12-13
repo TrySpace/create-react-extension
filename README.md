@@ -103,6 +103,7 @@ my-browser-extension
 │   │   ├── icon-128.png
 │   ├── popup.html
 │   ├── options.html
+│   ├── newtab.html
 │   └── manifest.json
 └── src
     ├── background
@@ -112,6 +113,9 @@ my-browser-extension
     ├── options
     │   ├── index.js
     │   ├── Options.js
+    ├── newtab
+    │   ├── index.js
+    │   ├── NewTab.js
     ├── App.css
     ├── App.js
     ├── App.test.js
